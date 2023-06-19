@@ -1,0 +1,79 @@
+{
+  "emptyEmail": {
+    "email": "",
+    "name": "morpheus",
+    "gender": "male",
+    "status": "active"
+  },
+
+  "emptyStatus": {
+    "email": "testingrandom@gmail.com",
+    "name": "morpheus",
+    "gender": "male",
+    "status": ""
+  },
+
+  "emptyName": {
+    "email": "testingrandom@gmail.com",
+    "name": "",
+    "gender": "male",
+    "status": "active"
+  },
+
+  "emptyGender": {
+    "email": "testingrandom@gmail.com",
+    "name": "morpheus",
+    "gender": "",
+    " status": "active"
+  },
+
+  "invalidEmail": {
+    "email": "]",
+    "name": "morpheus",
+    "gender": "male",
+    "status": "active"
+  },
+
+  "invalidStatus": {
+    "email": "testingrandom@gmail.com",
+    "name": "morpheus",
+    "gender": "male",
+    "status": "1"
+  },
+
+  "invalidGender": {
+    "email": "testingrandom@gmail.com",
+    "name": "morpheus",
+    "gender": "test",
+    "status": "active"
+  },
+
+  "user": {
+    "name": "morpheus",
+    "email": "test1111.random.email@test.com",
+    "gender": "male",
+    "status": "active"
+  },
+
+  "multipleUsers": [
+    {
+      "name": "Boban",
+      "email": "puurn2s111t@gmail.com",
+      "gender": "male",
+      "status": "active"
+    },
+    {
+      "name": "Boban",
+      "email": "puurn3s111t@gmail.com",
+      "gender": "male",
+      "status": "active"
+    }
+  ],
+
+  "takenEmail": {
+    "email": "aaa@gmail.com",
+    "name": "morpheus",
+    "gender": "male",
+    "status": "active"
+  }
+}
