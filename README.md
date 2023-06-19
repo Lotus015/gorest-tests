@@ -1,5 +1,9 @@
 # GoRest API Tests
 
+The test suite aims to cover both the negative and positive scenarios for GET, POST, PUT, PATCH and DELETE methods on the /users endpoint. 
+The postman collection can be run with newman. 
+Same tests are also automated using pactum.js. 
+
 **How to run**
 
 1. Install Docker https://docs.docker.com/get-docker/
@@ -19,5 +23,3 @@ docker build -t gorest-tests .
 
 docker run gorest-tests
 ```
-
-The test suite aims to cover both the negative and positive scenarios for GET, POST, PUT, PATCH and DELETE methods on the /users endpoint. 
