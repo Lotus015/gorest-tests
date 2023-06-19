@@ -11,7 +11,9 @@ docker run -t postman/newman_ubuntu1404 run "https://raw.githubusercontent.com/L
 
 If you want to run the pactum.js tests: 
 
-Clone the repository and run
+1. Clone the repository
+2. Navigate to project file and run
+
 ```
 docker build -t gorest-tests . 
 
