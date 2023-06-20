@@ -4,6 +4,10 @@ The test suite aims to cover both the negative and positive scenarios for GET, P
 The postman collection can be run with newman. 
 Same tests are also automated using pactum.js. 
 
+For pactum.js tests, data templates can be found in the data/dataTemplates.json file. 
+These are json objects prepared earlier for testing purposes, they can be changed if you want to adapt the testing scenarios. 
+Test spec files can be found in test.js file. 
+
 **How to run**
 
 1. Install Docker https://docs.docker.com/get-docker/
